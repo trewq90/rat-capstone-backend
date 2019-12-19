@@ -31,7 +31,7 @@ def create_user():
         db.session.add(record)
         db.session.commit()
 
-        return jsonify("Item Created")
+        return jsonify("Item Created.")
 
     return jsonify("Error: request must be sent as JSON")
 
